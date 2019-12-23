@@ -8,6 +8,7 @@ function FormattedDate(props) {
 class Clock extends React.Component {
     constructor(props) {
         super(props);
+        this.clickTest = this.clickTest.bind(this);
         this.state = {date: new Date()};
     }
 
@@ -28,11 +29,16 @@ class Clock extends React.Component {
         });
     }
 
+    clickTest() {
+        alert(this.state.date)
+    }
+
     render() {
         return (
             <div>
                 <h1>Hello, world!</h1>
                 <FormattedDate date={this.state.date}/>
+                <button onClick={this.clickTest}>测试</button>
             </div>
         );
     }
