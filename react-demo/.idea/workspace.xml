@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00496803-c7b8-4f1e-9eac-509b04d926a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/router/router.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/.idea/react-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-1/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-1/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-1/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-2/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-2/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-3/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-3/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-4/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-4/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-5/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-5/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-6/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-6/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-7/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-8/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/learn-9/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/react-routing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-demo-副本/src/serviceWorker.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn_1/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn_1/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learn_1/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,12 +99,24 @@
       <workItem from="1600397268643" duration="9818000" />
       <workItem from="1600419123982" duration="1912000" />
       <workItem from="1600651989457" duration="1814000" />
-      <workItem from="1600850623982" duration="488000" />
+      <workItem from="1600850623982" duration="650000" />
     </task>
+    <task id="LOCAL-00001" summary="文件更新">
+      <created>1600851130208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600851130208</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="文件更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#ESLint" timestamp="1600398198796">
@@ -161,22 +127,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600408287290" />
-    <state width="1899" height="2" key="GridCell.Tab.0.bottom" timestamp="1600424391529">
+    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1600851129284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600424391529" />
-    <state width="1899" height="2" key="GridCell.Tab.0.center" timestamp="1600424391529">
+    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600851129284" />
+    <state width="1899" height="2" key="GridCell.Tab.0.bottom" timestamp="1600851273870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600424391529" />
-    <state width="1899" height="2" key="GridCell.Tab.0.left" timestamp="1600424391529">
+    <state width="1899" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600851273870" />
+    <state width="1899" height="2" key="GridCell.Tab.0.center" timestamp="1600851273870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600424391529" />
-    <state width="1899" height="2" key="GridCell.Tab.0.right" timestamp="1600424391529">
+    <state width="1899" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600851273870" />
+    <state width="1899" height="2" key="GridCell.Tab.0.left" timestamp="1600851273870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600424391529" />
+    <state width="1899" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600851273870" />
+    <state width="1899" height="2" key="GridCell.Tab.0.right" timestamp="1600851273870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600851273870" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1600851134788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600851134788" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600412759336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
