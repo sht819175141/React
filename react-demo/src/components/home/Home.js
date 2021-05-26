@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
+import Announcement from "./announcement/announcement";
+import Nigation from "./nigation/nigation";
 
 export default class Home extends Component {
     render() {
         return (
             <div>
-                <h1>Hello World</h1>
+                <Announcement/>
+                <Nigation/>
             </div>
         )
     }

@@ -1,38 +1,49 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import {Layout, Menu} from 'antd';
-import {AppstoreOutlined, MailOutlined, SettingOutlined, DashboardTwoTone} from '@ant-design/icons';
+import {Layout, Menu, Avatar} from 'antd';
+import {MenuUnfoldOutlined, MenuFoldOutlined, AppstoreOutlined, MailOutlined, SettingOutlined, DashboardTwoTone} from '@ant-design/icons';
 import './router.css';
 
-import Home from '../home/Home';
-import startLearn from "../Initial-stage/start-learn/start-learn";
-import prop from "../Initial-stage/prop/prop";
-import state from "../Initial-stage/state/state";
-import Clock from "../advanced-learning/clock/clock";
-import Event from "../advanced-learning/event/event";
-import Toggle from "../advanced-learning/toggle/toggle";
-import Form from "../advanced-learning/form/form";
-import Topics from '../advanced-learning/topics/Topics';
-import routerProp from "../deep-learning/router-prop/router-prop"
-import stepNine from "../deep-learning/step-9/step-nine";
+import Home from '../components/home/Home';
+import startLearn from "../components/Initial-stage/start-learn/start-learn";
+import prop from "../components/Initial-stage/prop/prop";
+import state from "../components/Initial-stage/state/state";
+import Clock from "../components/advanced-learning/clock/clock";
+import Event from "../components/advanced-learning/event/event";
+import Toggle from "../components/advanced-learning/toggle/toggle";
+import Form from "../components/advanced-learning/form/form";
+import Topics from '../components/advanced-learning/topics/Topics';
+import routerProp from "../components/deep-learning/router-prop/router-prop"
+import stepNine from "../components/deep-learning/step-9/step-nine";
 
 const {Header, Content, Footer, Sider} = Layout;
 const {SubMenu} = Menu;
 
 export default class router extends React.Component {
+    constructor(prop) {
+        super(prop);
+        this.state = {
+            collapsed: false,
+        };
+    }
+
+    toggle = () => {
+        this.setState({
+            collapsed: !this.state.collapsed,
+        });
+    };
 
     render() {
         return (
-            <Layout>
+            <Layout style={{height: '100vh'}}>
                 <Router>
-                    <Sider style={{overflow: 'auto', height: '100vh', position: 'fixed', left: 0,}}>
+                    <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
                         <div className="logo">
                             <Link exact="true" to='/'>
                                 <DashboardTwoTone/>
-                                <span>首页</span>
                             </Link>
                         </div>
-                        <Menu theme="dark" style={{width: 256}} mode="inline"
+                        <Menu theme="dark" mode="inline"
                               defaultSelectedKeys={['1']} defaultOpenKeys={['sub1']}>
                             <SubMenu key="sub1" title={
                                 <span>
@@ -84,9 +95,20 @@ export default class router extends React.Component {
                             </SubMenu>
                         </Menu>
                     </Sider>
-                    <Layout className="site-layout" style={{marginLeft: 200}}>
-                        <Header theme="dark" className="site-layout-head"/>
-                        <Content className="site-layout-main">
+                    <Layout className="site-layout">
+                        <Header className="site-layout-background" style={{padding: 0}}>
+                            {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
+                                className: 'trigger',
+                                onClick: this.toggle,
+                            })}
+                            <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" className="header-avatar"/>
+                        </Header>
+                        <Content className="site-layout-background"
+                                 style={{
+                                     margin: '24px 16px',
+                                     padding: 24,
+                                     minHeight: 280,
+                                 }}>
                             <Route exact path='/' component={Home}/>
                             <Route exact path='/start' component={startLearn}/>
                             <Route exact path='/prop' component={prop}/>
@@ -99,9 +121,6 @@ export default class router extends React.Component {
                             <Route exact path='/router-prop' component={routerProp}/>
                             <Route exact path='/nine' component={stepNine}/>
                         </Content>
-                        <Footer className="site-layout-footer">
-                            Ant Design ©2018 Created by Ant UED
-                        </Footer>
                     </Layout>
                 </Router>
             </Layout>

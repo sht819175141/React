@@ -8,8 +8,8 @@ class Welcome extends React.Component {
 }
 
 class prop extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
     }
 
     render() {
